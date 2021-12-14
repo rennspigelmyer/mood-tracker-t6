@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+/* have black overlay cover entire background */
+
+
+body {
+  background: linear-gradient(to bottom, rgb(108, 68, 72), rgb(125, 168, 176), rgb(138, 191, 192), rgb(192, 109, 23), rgb(71, 42, 45));;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0, .6);
+  color: rgb(199, 199, 199);
+  padding: 80px;
+  border-radius: 20px;
+  margin: 20%;
+ 
+}
+
+button {
+  background:rgb(192, 109, 23);
+  /* linear-gradient(to bottom, rgb(46, 45, 45), rgb(192, 109, 23));; */
+  padding: 10px 10px 10px 10px;
+  border-radius: 18px;
+  margin-top: 30px;
+  border: none;
+  color: rgb(199, 199, 199);
+  width: 200px;
+}
+
+.delete {
+  background-color: rgb(176, 125, 125);
+}
+
+
+label {
+  margin: 20%;
+}
+
+
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+
+.inputspace {
+  padding: 20px;
+}
+
+#body {
+  width: 200px;
+  height: 40px;
+}
+
+#title {
+  height: 30px;
+}
+
+#body, #title {
+  background-color: rgb(0, 0, 0, .4);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  width: 200px;
+}
