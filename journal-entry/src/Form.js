@@ -33,7 +33,7 @@ class Form extends Component {
                 <form>
                     <label>Date</label>
                         <input 
-                            placeholder="Enter date"
+                            placeholder="Type..."
                             type="text"
                             name="title"
                             id="title"

@@ -28,7 +28,7 @@ const Entries = (props) => {
 
         return (
             <div>
-                <h2>Entry Log</h2>
+                <h2> </h2>
                
                 <EntryHeader />
                 <EntryBody entryData={entryData} removeEntry={removeEntry}/>

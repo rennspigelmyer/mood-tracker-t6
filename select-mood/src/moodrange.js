@@ -31,20 +31,20 @@ class MoodRange extends React.Component{
             <p class="mood mood-1">Anxiety or Panic Attacks</p>
             <p class="mood mood-2">Flashbacks</p>
             <p class="mood mood-3">Mania</p>
-            <p class="mood mood-3">Hypomania</p>
-            <p class="mood mood-4">Obsessive Compulsions</p>
-            <p class="mood mood-5">Dissociation</p>
-            <p class="mood mood-6">Executive Dysfunction</p>
-            <p class="mood mood-7">Social Isolation</p>
-            <p class="mood mood-8">Overstimulation</p>
-            <p class="mood mood-9">Disordered Eating</p>
-            <p class="mood mood-10">Hyper-Activity</p>
-            <p class="mood mood-11">Intrusive Thoughts</p>
-            <p class="mood mood-12">Impulsivity</p>
-            <p class="mood mood-13">Emotional Dysregulation </p>
-            <p class="mood mood-14">Nightmares/Night Terrors</p>
-            <p class="mood mood-15">Physical Manifestations (e.g. Headache)</p>
-            <p class="mood mood-16">Baseline Symptoms (or None) </p>
+            <p class="mood mood-4">Hypomania</p>
+            <p class="mood mood-5">Obsessive Compulsions</p>
+            <p class="mood mood-6">Dissociation</p>
+            <p class="mood mood-7">Executive Dysfunction</p>
+            <p class="mood mood-8">Social Isolation</p>
+            <p class="mood mood-9">Overstimulation</p>
+            <p class="mood mood-10">Disordered Eating</p>
+            <p class="mood mood-11">Hyper-Activity</p>
+            <p class="mood mood-12">Intrusive Thoughts</p>
+            <p class="mood mood-13">Impulsivity</p>
+            <p class="mood mood-14">Emotional Dysregulation </p>
+            <p class="mood mood-15">Nightmares/Night Terrors</p>
+            <p class="mood mood-16">Physical Manifestations (e.g. Headache)</p>
+            <p class="mood mood-17">Baseline Symptoms (or None) </p>
             <button onClick={this.MoodConfirmed}>Select</button>
             </div>
             </div>

@@ -1,6 +1,5 @@
 import React from 'react';
-//import MoodOptimistic from './moodOptimistic';
-import Style from './App.css'
+// import Style from './App.css'
 
 class MyMood extends React.Component{
 

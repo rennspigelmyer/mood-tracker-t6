@@ -3,13 +3,13 @@ import * as React from 'react';
 import { Range } from 'react-range';
 
 class SuperSimple extends React.Component {
-  state = { values: [16] };
+  state = { values: [17] };
   render() {
     return (
       <Range
         step={1}
         min={0}
-        max={16}
+        max={17}
         values={this.state.values}
         onChange={(values) => {
             this.setState({ values })

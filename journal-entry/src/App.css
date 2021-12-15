@@ -39,12 +39,14 @@ button {
 }
 
 .delete {
-  background-color: rgb(176, 125, 125);
+  background-color: rgb(71, 42, 45, .8);
+  margin-bottom: 60px;
 }
 
 
 label {
   margin: 20%;
+  
 }
 
 

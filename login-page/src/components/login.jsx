@@ -32,7 +32,7 @@ const LoginForm = () => {
     <div className="wrapper">
       <div className="form">
         <h1 className="title">Sign In</h1>
-        <p className="disclaimer">Disclaimer:</p>
+        
         {/* <p className="disclaimertext">If you are in crisis or you think you may have an emergency, call your doctor or 911 immediately. If you're having suicidal thoughts, call 1-800-273-TALK (8255) to talk to a skilled, trained counselor at a crisis center in your area at any time (National Suicide Prevention Lifeline). If you are located outside the United States, call your local emergency line immediately. We do not recommend or endorse any clinicians, counselors, psychiatrists, social workers, physicians, products, procedures, opinions, or other information that may be mentioned. Reliance on any information provided by us, or other visitors to the website is solely at your own risk.</p> */ }
         <form onSubmit={handleSubmit}>
           <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} className="input1" placeholder="Username" required />

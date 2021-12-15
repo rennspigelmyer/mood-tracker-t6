@@ -29,7 +29,6 @@
   color: rgb(199, 199, 199);
   padding: 80px;
   border-radius: 20px;
-  
 }
 
 .input1, .input2 {
@@ -43,9 +42,14 @@
   color: #fff;
 }
 
+.disclaimerbutton {
+  margin-top: 15vh;
+
+}
+
 .button {
   color: black;
-  padding: 10%;
+  padding: 50%;
   border-radius: 18px;
   background-color: rgb(197, 107, 15);
   border: none;
@@ -58,4 +62,16 @@
   overflow: wrap;
   text-align: center;
   padding: 20%;
+}
+
+.disclaimercontinue {
+  width: 500px;
+}
+
+p {
+  font-size: 15px;
+}
+
+h2 {
+  margin-top: 20px;
 }
