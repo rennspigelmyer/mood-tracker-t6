@@ -25,7 +25,8 @@ class MyMood extends React.Component{
       render()
       {
           return ( 
-            <div> 
+            
+            <div class="moodFrame"> 
                 <span>{this.props.name} your most prominent symptom was {this.props.moods[this.props.moodValue]}.</span>
             </div>
         );

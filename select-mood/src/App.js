@@ -7,44 +7,44 @@ import MyMood from './myMood';
 import LogInPage from './loginPage'
 import { useState, useEffect } from 'react';
 
-function MoodsDef(){
-    return (
-<Router>
-<div>
-      <ul>
-              <li>
-                   {/* <Link to ="/">App</Link> */}
-                 </li>
-         <li>
-             <Link to ="/myjournal" className="linknav">`Journal`</Link>
-                  </li>
-              <li>
-                  <Link to ="/myMoods.js" className="linknav">Moods</Link>
-                  </li>
-                  </ul>
-             <Routes>
-                {/* <Route exact path = "/"><App/></Route> */}
-                <Route path = "/myjournal">Journal</Route>
-                <Route path = "/mymoods">Moods</Route>
-          </Routes>
- </div>
-     </Router>
-    );
-    }
-    function MyJournal(){
-        return (
-            <div>
-                <h2>My Journal</h2>
-            </div>
-        );
-    }
-    function MyMoods (){
-        return (
-            <div>
-                <h2>My Moods</h2>
-            </div>
-        );
-    }
+// function MoodsDef(){
+//     return (
+// <Router>
+// <div>
+//       <ul>
+//               <li>
+//                    {/* <Link to ="/">App</Link> */}
+//                  </li>
+//          <li>
+//              <Link to ="/myjournal" className="linknav">`Journal`</Link>
+//                   </li>
+//               <li>
+//                   <Link to ="/myMoods.js" className="linknav">Moods</Link>
+//                   </li>
+//                   </ul>
+//              <Routes>
+//                 {/* <Route exact path = "/"><App/></Route> */}
+//                 <Route path = "/myjournal">Journal</Route>
+//                 <Route path = "/mymoods">Moods</Route>
+//           </Routes>
+//  </div>
+//      </Router>
+//     );
+//     }
+//     function MyJournal(){
+//         return (
+//             <div>
+//                 <h2>My Journal</h2>
+//             </div>
+//         );
+//     }
+//     function MyMoods (){
+//         return (
+//             <div>
+//                 <h2>My Moods</h2>
+//             </div>
+//         );
+//     }
 
 class App extends React.Component{
     constructor(props) {
